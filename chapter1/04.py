@@ -9,8 +9,6 @@ for i in range(len(word_list)):
     else:
         alphabets.append(word_list[i][:2])
 
-# result = {alphabets[i]: i for i in range(alphabets)}
-
 result = {}
 n = 0
 for a in alphabets:
