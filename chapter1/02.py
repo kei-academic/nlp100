@@ -2,9 +2,9 @@ w1 = "パトカー"
 w2 = "タクシー"
 n = len(w1)
 
-result = ""
+ans = ""
 
 for i in range(n):
-    result += w1[i] + w2[i]
+    ans += w1[i] + w2[i]
 
-print(result)
+print(ans)

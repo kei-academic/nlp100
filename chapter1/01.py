@@ -1,8 +1,8 @@
 word = "パタトクカシーー"
 n = len(word)
 
-result = ""
+ans = ""
 for i in range(0, n, 2):
-    result += word[i]
+    ans += word[i]
 
-print(result)
+print(ans)

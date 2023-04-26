@@ -6,4 +6,4 @@ def n_gram(s, n):
 
 sentence = "I am an NLPer"
 print(n_gram(sentence.split(" "), 2))  # 単語bi-gramの出力
-print(n_gram(sentence.replace(" ", ""), 2))  # 文字bi-gramの出力
+print(n_gram(list(sentence), 2))  # 文字bi-gramの出力

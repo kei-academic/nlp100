@@ -1,8 +1,8 @@
 word = "stressed"
 n = len(word)
 
-result = ""
+ans = ""
 for i in range(n):
-    result += word[n-i-1]
+    ans += word[n-i-1]
 
-print(result)
+print(ans)

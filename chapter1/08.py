@@ -1,11 +1,11 @@
 def cipher(text):
-    result = ""
+    ans = ""
     for t in text:
         if (97 <= ord(t) <= 122):
-            result += chr(219 - ord(t))
+            ans += chr(219 - ord(t))
         else:
-            result += t
-    return result
+            ans += t
+    return ans
 
 sentence = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
 

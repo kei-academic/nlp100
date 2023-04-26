@@ -9,10 +9,10 @@ for i in range(len(word_list)):
     else:
         alphabets.append(word_list[i][:2])
 
-result = {}
+ans = {}
 n = 0
 for a in alphabets:
     n += 1
-    result[a] = n
+    ans[a] = n
 
-print(result)
+print(ans)
